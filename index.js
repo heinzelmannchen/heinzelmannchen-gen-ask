@@ -6,7 +6,7 @@ var Q = require('q'),
 Generator.prototype.createData = function() {
     var q = Q.defer();
     inquirer.prompt(this.config.ask, function(answers){
-        q.resolve(answers);
+        q.resolve([answers]);
     });
     return q.promise;
 };
