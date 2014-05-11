@@ -4,7 +4,9 @@ g.setConfig({
     ask: [{
         type: 'input',
         name: 'appName',
-        message: 'Enter a name for your app'
+        message: 'Enter a name for your app',
+        errorMessage: 'Enter a valid name.',
+        validation: 'value.length > 0'
     }, {
         type: 'checkbox',
         message: 'Select toppings',
