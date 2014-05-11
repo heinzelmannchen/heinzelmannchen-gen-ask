@@ -1,7 +1,7 @@
 {
-  "name": "heinzelmannchen-gen-pg",
+  "name": "heinzelmannchen-gen-ask",
   "version": "0.0.1",
-  "description": "File System Stuff",
+  "description": "heinzelmannchen generator for inquirer",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -9,8 +9,6 @@
   "dependencies": {
     "q": "~1.0.0",
     "heinzelmannchen-generator": "git://github.com/heinzelmannchen/heinzelmannchen-generator",
-    "pg2json": "git://github.com/heinzelmannchen/pg2json",
-    "heinzelmannchen-datatypes": "git://github.com/heinzelmannchen/heinzelmannchen-datatypes",
     "inquirer": "~0.4.1"
   },
   "devDependencies": {
@@ -27,17 +25,16 @@
     "mocha-jshint": "0.0.7"
   },
   "scripts": {
-    "test": "mocha",
-    "integration": "mocha integrationTest --reporter spec"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heinzelmannchen/heinzelmannchen-gen-pg.git"
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-gen-ask.git"
   },
   "author": "Christoph Hermann & Sebastian Sprenger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/heinzelmannchen/heinzelmannchen-gen-pg/issues"
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-gen-ask/issues"
   },
-  "homepage": "https://github.com/heinzelmannchen/heinzelmannchen-gen-pg"
+  "homepage": "https://github.com/heinzelmannchen/heinzelmannchen-gen-ask"
 }
