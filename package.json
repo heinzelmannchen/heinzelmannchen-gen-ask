@@ -1,6 +1,6 @@
 {
   "name": "heinzelmannchen-gen-ask",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "heinzelmannchen generator for inquirer",
   "main": "index.js",
   "directories": {
