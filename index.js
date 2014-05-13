@@ -26,6 +26,7 @@ Generator.prototype.createData = function() {
 };
 
 Generator.explain = function() {
+    return 'Define a inquirer prompt config in your heinzelrc. It will ask for the data you provide in your config.';
 };
 
 Generator.help = function() {
