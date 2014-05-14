@@ -1,6 +1,6 @@
 {
   "name": "heinzelmannchen-gen-ask",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "heinzelmannchen generator for inquirer",
   "main": "index.js",
   "directories": {
@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "q": "~1.0.0",
-    "heinzelmannchen-generator": "git://github.com/heinzelmannchen/heinzelmannchen-generator",
-    "inquirer": "~0.4.1"
+    "inquirer": "~0.4.1",
+    "heinzelmannchen-generator": "~1.0.0"
   },
   "devDependencies": {
     "mock-fs": "~2.2.0",
